@@ -15,7 +15,6 @@ Bu çalışmada aşağıdaki teknolojiler ve servisler kullanılmıştır:
 - Amazon Web Services (AWS)
 - Amazon EC2 (Elastic Compute Cloud)
 - Amazon Linux 2023
-- Amazon Elastic Block Store (EBS)
 - Apache HTTP Server
 - SSH (Secure Shell)
 - SCP (Secure Copy Protocol)
@@ -28,8 +27,6 @@ Portfolio web sitesi, AWS üzerinde oluşturulan bir EC2 instance’ı üzerinde
 
 Sunucuya SSH protokolü kullanılarak uzaktan bağlantı sağlanmış, sistem güncellemeleri yapılmış ve Apache HTTP Server kurulmuştur. Ardından, web sitesine ait dosyalar SCP kullanılarak sunucuya aktarılmış ve Apache’nin varsayılan web dizinine yerleştirilmiştir. Dosya sahipliği ve erişim izinleri düzenlenerek web sunucusunun dosyalara sorunsuz erişimi sağlanmıştır.
 
-Tüm kurulum ve yapılandırma işlemleri tamamlandıktan sonra, EC2 instance’ının çalışır durumda olduğu AWS Management Console üzerinden doğrulanmıştır. Instance’a ait genel IP adresi kullanılarak web sitesine tarayıcı üzerinden erişilmiş ve portfolio web sitesinin başarıyla görüntülendiği gözlemlenmiştir.
-
 ---
 
 ## Repository İçeriği
@@ -41,6 +38,7 @@ Bu repository içerisinde, proje kapsamında hazırlanan rapor dosyası ve portf
 ## Hazırlayan
 
 **Dilara Top**  
+B221200573
 Sakarya Üniversitesi  
-Bilgi Sistemleri Mühendisliği  
+Bilişim Sistemleri Mühendisliği  
 Bulut Bilişim Dersi  
